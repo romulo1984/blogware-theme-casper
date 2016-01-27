@@ -1,0 +1,14 @@
+<div class="nav">
+  <h3 class="nav-title">Menu</h3>
+  <a href="#" class="nav-close">
+    <span class="hidden">Close</span>
+  </a>
+  <ul>
+    <li role="presentation"><a href="{{fullpath '/'}}">Home</a></li>
+    {{#each @pages}}
+      <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
+    {{/each}}
+  </ul>
+  <a class="subscribe-button icon-feed" href="{{permalink '/rss/'}}">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
