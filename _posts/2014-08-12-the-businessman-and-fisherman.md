@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Businessman & the fisherman
-date:   2014-08-12 10:18:00
+date: 2014-08-12 10:18:00
 author: Nikolai Frits
 ---
 
