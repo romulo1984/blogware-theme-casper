@@ -5,25 +5,21 @@ date: 2014-09-27 10:18:00
 author: Otho Korbin
 ---
 
-<p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
-
-
-<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
+Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
 <hr />
 
-<h1 id="heading1">Heading 1</h1>
+# Heading 1
 
-<h2 id="heading2">Heading 2</h2>
+## Heading 2
 
-<h3 id="heading3">Heading 3</h3>
+### Heading 3
 
-<h4 id="heading4">Heading 4</h4>
+#### Heading 4
 
-<h5 id="heading5">Heading 5</h5>
+##### Heading 5
 
-<h6 id="heading6">Heading 6</h6>
+###### Heading 6
 
 <hr />
 
@@ -123,13 +119,14 @@ author: Otho Korbin
 
 <p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
 
-{% highlight css %}
+``` css
 #container {
     float: left;
     margin: 0 -240px 0 0;
     width: 100%;
 }
 {% endhighlight %}
+```
 
 <hr />
 
