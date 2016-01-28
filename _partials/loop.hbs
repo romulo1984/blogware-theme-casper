@@ -1,4 +1,4 @@
-{{#each @posts}}
+{{#range @posts @paginator.begin @paginator.end}}
   <article class="post">
     <header class="post-header">
       <h2 class="post-title"><a href="{{fullpath path}}">{{title}}</a></h2>
@@ -11,4 +11,4 @@
       <time class="post-date" datetime="{{datetime date 'YYYY-MM-DD'}}">{{datetime date 'DD MMM YYYY'}}</time>
     </footer>
   </article>
-{{/each}}
+{{/range}}

@@ -18,7 +18,7 @@
     <meta name="generator" content="Blogware v{{@blogware.version}}" />
     <link rel="alternate" type="application/rss+xml" title="{{@site.title}}" href="{{permalink '/rss/'}}" />
   </head>
-  <body class="{{#block "body_class"}}home-template{{/block}} nav-closed">
+  <body class="{{#block "body_class"}}{{#if @paged}}paged archive-template{{else}}home-template{{/if}}{{/block}} nav-closed">
 
     {{> navigation}}
 
