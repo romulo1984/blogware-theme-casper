@@ -1,3 +1,7 @@
+<div class="extra-pagination inner">
+  {{> pagination}}
+</div>
+
 {{#range @posts @paginator.begin @paginator.end}}
   <article class="post">
     <header class="post-header">
@@ -8,7 +12,9 @@
     </section>
     <footer class="post-meta">
       {{author}}
-      <time class="post-date" datetime="{{datetime date 'YYYY-MM-DD'}}">{{datetime date 'DD MMM YYYY'}}</time>
+      <time class="post-date" datetime="{{datetime date 'YYYY-MM-DD'}}">{{datetime date 'DD MMMM YYYY'}}</time>
     </footer>
   </article>
 {{/range}}
+
+{{> pagination}}
