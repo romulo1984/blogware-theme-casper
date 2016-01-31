@@ -1,0 +1,16 @@
+---
+layout: default
+perpage: 5
+---
+
+<header class="main-header tag-head no-cover">
+  <nav class="main-nav overlay clearfix">
+    {{#if @site.logo}}<a class="blog-logo" href="{{permalink '/'}}"><img src="{{@site.logo}}" alt="{{@site.title}}"></a>{{/if}}
+  </nav>
+</header>
+
+<main class="content" role="main">
+
+  {{> loop}}
+
+</main>
