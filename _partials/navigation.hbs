@@ -8,6 +8,9 @@
     {{#each @pages}}
       <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
     {{/each}}
+    {{#each @tags}}
+      <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
+    {{/each}}
   </ul>
   <a class="subscribe-button icon-feed" href="{{permalink '/rss/'}}">Subscribe</a>
 </div>
