@@ -12,6 +12,7 @@
     </section>
     <footer class="post-meta">
       {{author}}
+      {{#if tags}}on {{taglinks tags}}{{/if}}
       <time class="post-date" datetime="{{datetime date 'YYYY-MM-DD'}}">{{datetime date 'DD MMMM YYYY'}}</time>
     </footer>
   </article>

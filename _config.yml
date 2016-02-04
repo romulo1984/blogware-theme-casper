@@ -8,3 +8,7 @@ description: >
 cover: "/assets/images/cover1.jpg"
 logo: "/assets/images/ghost.png"
 navigation: true
+
+tags:
+  Fables:
+    image: "/assets/images/cover2.jpg"

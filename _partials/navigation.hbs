@@ -9,7 +9,7 @@
       <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
     {{/each}}
     {{#each @tags}}
-      <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
+      <li role="presentation">{{taglink this}}</li>
     {{/each}}
   </ul>
   <a class="subscribe-button icon-feed" href="{{fullpath '/rss/'}}">Subscribe</a>
