@@ -8,6 +8,16 @@ description: >
 cover: "/assets/images/home1.jpg"
 logo: "/assets/images/ghost.png"
 
+navigation:
+  - title: Home
+    path: "/"
+  - title: About
+    path: "/about/"
+  - title: Fables
+    path: "/tag/fables/"
+  - title: Speeches
+    path: "/tag/speeches/"
+
 tags:
   Speeches:
     description: Some of the greatest words ever spoken.

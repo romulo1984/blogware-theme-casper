@@ -4,12 +4,8 @@
     <span class="hidden">Close</span>
   </a>
   <ul>
-    <li role="presentation"><a href="{{fullpath '/'}}">Home</a></li>
-    {{#each @pages}}
-      <li role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
-    {{/each}}
-    {{#each @tags}}
-      <li role="presentation">{{taglink this}}</li>
+    {{#each @navigation}}
+      <li {{#if current}}class="nav-current"{{/if}} role="presentation"><a href="{{fullpath path}}">{{title}}</a></li>
     {{/each}}
   </ul>
   <a class="subscribe-button icon-feed" href="{{fullpath '/rss/'}}">Subscribe</a>
