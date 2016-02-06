@@ -9,14 +9,10 @@ cover: "/assets/images/home1.jpg"
 logo: "/assets/images/ghost.png"
 
 navigation:
-  - title: Home
-    path: "/"
-  - title: About
-    path: "/about/"
-  - title: Fables
-    path: "/tag/fables/"
-  - title: Speeches
-    path: "/tag/speeches/"
+  Home: "/"
+  About: "/about/"
+  Fables: "/tag/fables/"
+  Speeches: "/tag/speeches/"
 
 authors:
   "Martin Luther King":
