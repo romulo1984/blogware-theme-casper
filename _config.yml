@@ -15,13 +15,26 @@ navigation:
   Speeches: "/tag/speeches/"
 
 authors:
+  "Edgar Rice Burroughs":
+    bio: >
+      I'm an American novelist, best known for my work writing about a
+      brave jungle hero called Tarzan and his muse, Jane.
+    location: "Chicago, Illinois"
   "Martin Luther King":
     image: "/assets/images/mlk.jpg"
+  "Nikolai Frits":
+    bio: "I share links on writing, publishing & new media."
+    image: "/assets/images/avatar2.jpg"
+    website: "http://bit.ly/1nP8GsR"
+  "Otho Korbin":
+    bio: "I am taking full advantage of long summer days and warm weather."
+    image: "/assets/images/avatar1.jpg"
+    website: "http://bit.ly/1TKGbcn"
 
 tags:
-  Speeches:
-    description: Some of the greatest words ever spoken.
-    image: "/assets/images/cover1.jpg"
   Fables:
     description: A series of short stories that make you think.
     image: "/assets/images/cover2.jpg"
+  Speeches:
+    description: Some of the greatest words ever spoken.
+    image: "/assets/images/cover1.jpg"

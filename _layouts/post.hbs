@@ -28,9 +28,29 @@ layout: default
 
     <footer class="post-footer">
 
-      <section class="author">
-        <h4><a href="{{fullpath @current.path}}">{{@current.author}}</a></h4>
-      </section>
+      {{#with @current.author}}
+
+        {{#if image}}
+          <figure class="author-image">
+            <a class="img" href="{{fullpath path}}" style="background-image: url({{image}})"><span class="hidden">{{title}}'s Picture'</span></a>
+          </figure>
+        {{/if}}
+
+        <section class="author">
+          <h4><a href="{{fullpath path}}">{{title}}</a></h4>
+
+          {{#if bio}}
+            <p>{{bio}}</p>
+          {{else}}
+            <p>Read <a href="{{fullpath path}}">more posts</a> by this author.</p>
+          {{/if}}
+          <div class="author-meta">
+            {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+            {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+          </div>
+        </section>
+
+      {{/with}}
 
       <section class="share">
         <h4>Share this post</h4>
