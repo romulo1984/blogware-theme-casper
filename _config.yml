@@ -18,6 +18,10 @@ navigation:
   - title: Speeches
     path: "/tag/speeches/"
 
+authors:
+  "Martin Luther King":
+    image: "/assets/images/mlk.jpg"
+
 tags:
   Speeches:
     description: Some of the greatest words ever spoken.
