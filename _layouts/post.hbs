@@ -72,3 +72,22 @@ layout: default
 
   </article>
 </main>
+
+<aside class="read-next">
+  {{#with @next}}
+    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{fullpath path}}">
+      <section class="post">
+        <h2>{{title}}</h2>
+        <p>{{excerpt content}}&hellip;</p>
+      </section>
+    </a>
+  {{/with}}
+  {{#with @prev}}
+    <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{fullpath path}}">
+      <section class="post">
+        <h2>{{title}}</h2>
+        <p>{{excerpt content}}&hellip;</p>
+      </section>
+    </a>
+  {{/with}}
+</aside>
