@@ -78,7 +78,7 @@ layout: default
     <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{fullpath path}}">
       <section class="post">
         <h2>{{title}}</h2>
-        <p>{{excerpt content}}&hellip;</p>
+        <p>{{excerpt content words="19"}}</p>
       </section>
     </a>
   {{/with}}
@@ -86,7 +86,7 @@ layout: default
     <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{fullpath path}}">
       <section class="post">
         <h2>{{title}}</h2>
-        <p>{{excerpt content}}&hellip;</p>
+        <p>{{excerpt content words="19"}}</p>
       </section>
     </a>
   {{/with}}
