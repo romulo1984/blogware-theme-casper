@@ -19,6 +19,11 @@ layout: default
       <h1 class="post-title">{{@current.title}}</h1>
       <section class="post-meta">
         <time class="post-date" datetime="{{datetime @current.date 'YYYY-MM-DD'}}">{{datetime @current.date 'DD MMMM YYYY'}}</time>
+        {{#if @current.tags}}on
+            {{#each @current.tags}}
+            {{#unless @first}},{{/unless}} <a href="{{fullpath path}}">{{title}}</a>
+            {{/each}}
+        {{/if}}
       </section>
     </header>
 
