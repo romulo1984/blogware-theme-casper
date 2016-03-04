@@ -3,6 +3,7 @@ layout: post
 title: A Full and Comprehensive Style Test
 date: 2014-09-27 10:18:00
 author: Otho Korbin
+image: "/assets/images/testimg-cover.jpg"
 ---
 
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
